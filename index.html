@@ -19,16 +19,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-black w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#first" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Global Beneficiaries</a>
-    <a href="#second" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Funding Intermediaries</a>
+    <a href="#first" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Beneficiaries (with JERF)</a>
+    <a href="#second" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Beneficiaries (without JERF)</a>
     <a href="#third" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Canadian Beneficiaries</a>
     <a href="#fourth" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Interactive Map</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#first" class="w3-bar-item w3-button w3-padding-large">Global Beneficiaries</a>
-    <a href="#second" class="w3-bar-item w3-button w3-padding-large">Funding Intermediaries</a>
+    <a href="#first" class="w3-bar-item w3-button w3-padding-large">Beneficiaries (with JERF)</a>
+    <a href="#second" class="w3-bar-item w3-button w3-padding-large">Beneficiaries (without JERF)</a>
     <a href="#third" class="w3-bar-item w3-button w3-padding-large">Canadian Beneficiaries</a>
     <a href="#fourth" class="w3-bar-item w3-button w3-padding-large">Interactive Map</a>
   </div>
@@ -57,13 +57,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div id="first">
 <div class="w3-center style">
 <h2>International Beneficiaries</h2>
-<h5 class="w3-padding-32">Some beneficiaries might appear multiple times; this is because they've received funding via more than one program.</h5>
-      <i class="w3-padding-64 w3-text-red w3-margin-right"></i>
-            <iframe width="1600" height="600" seamless frameborder="0" src="https://p-charis.github.io/journalism-funding/#Associated%20Press"></iframe>
-    </div>
+<h5 class="w3-padding-32">This dataset contains organisations that have participated at least once in a platform funding program, and are counted as a single entry regardless of how many times they might have participated <br></h5>
+    Google's massive "Journalism Emergency Relief Fund" (JERF) is also included in this dataset. We also provide a dataset excluding JERF below. </div>
     <div class="w3-twothird" style="border-bottom: solid; border-color: darkgray">
 <script
-    src="https://6rv47epmey.cloudtables.io/loader/4aa36558-da86-11ec-96fa-8f8ad7ef2f5e/table/bs5"
+    src="https://6rv47epmey.cloudtables.io/loader/e2350b72-f3a1-11ec-9671-67af9bba55ff/table/bs5"
     data-apiKey="J8fF810oRDFvTYUQmNHyi41z"
     data-clientId="{Unique client id}"
 ></script>
@@ -81,8 +79,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
     <div class="w3-twothird" style="border-bottom: solid; border-color: darkgray">
       <h2>Funding Intermediaries</h2>
+<h5 class="w3-padding-32">This dataset contains organisations that have participated at least once in a platform funding program, and are counted as a single entry regardless of how many times they might have participated <br></h5>
+    Google's massive "Journalism Emergency Relief Fund" (JERF) is not included in this dataset to avoid skewing possible findings. </div>
 <script
-    src="https://6rv47epmey.cloudtables.io/loader/f861aa0c-da80-11ec-9608-a38b518e19a0/table/bs5"
+    src="https://6rv47epmey.cloudtables.io/loader/6b4b6a22-f3a3-11ec-9d22-33227690932b/table/bs5"
     data-apiKey="J8fF810oRDFvTYUQmNHyi41z"
     data-clientId="{Unique client id}"
 ></script>
@@ -103,7 +103,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div class="w3-twothird" style="border-bottom: solid; border-color: darkgray">
       <h2>Canadian Beneficiaries</h2>
 <script
-    src="https://6rv47epmey.cloudtables.io/loader/4c8b0bc2-bb51-11ec-a2d8-4b6a1e3097d9/table/bs5"
+    src="https://6rv47epmey.cloudtables.io/loader/c7740066-f3a3-11ec-9d22-031c78bd906b/table/d"
     data-apiKey="J8fF810oRDFvTYUQmNHyi41z"
     data-clientId="{Unique client id}"
 ></script>
@@ -119,8 +119,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-twothird" style="border-bottom: solid; border-color: darkgray">
       <h2>Map of Global Platform Funding for Journalism</h2>
-<div class='tableauPlaceholder' id='viz1650116633884' style='position: relative'><noscript><a href='#'><img alt='Interactive Map of FJP &amp; GNI Global Funding for Journalism (2018-2022) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gl&#47;global-map-viz&#47;Map&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='global-map-viz&#47;Map' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gl&#47;global-map-viz&#47;Map&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650116633884');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</a>
+
+      <iframe width="874" height="541" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBT_52r5vyQcI-k5GNyMUytO1SdJx89EVkkH37PK9lnSU-pFLPWHWdu3Ri_S2JtHIwQq_i7xKlqK-I/pubchart?oid=1637270376&amp;format=interactive"></iframe>
 
     </div>
   </div>
